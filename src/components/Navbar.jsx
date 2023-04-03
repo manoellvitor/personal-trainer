@@ -14,8 +14,8 @@ function Navbar() {
         {/* Toggle Menu */}
         {
           isMenuOpen ?
-            <div className='text-white text-lg t-0 l-0 w-full h-screen fixed -z-10  bg-[#121214]/2 flex flex-col items-center mt-40 md:hidden'>
-              <ul className='flex flex-col gap-4 text-[#a8a8b3] items-center'>
+            <div className='text-white text-lg t-0 l-0 w-full h-screen absolute  bg-[#121214] flex flex-col items-center md:hidden'>
+              <ul className='flex flex-col gap-4 text-[#a8a8b3] items-center mt-40'>
                 <li>
                   <a
                     href="/"
@@ -42,8 +42,8 @@ function Navbar() {
             : <></>
         }
 
-        <div className='flex justify-between items-center p-4 max-w-[1440px] w-full'>
-          <div className='flex text-slate-200 text-4xl gap-2 items-center'>
+        <div className='flex justify-between items-center p-4 max-w-[1440px] w-full '>
+          <div className='flex text-slate-200 text-4xl gap-2 items-center z-10'>
             <Barbell size={40} />
             <a
               href="/"
@@ -81,11 +81,11 @@ function Navbar() {
             {isMenuOpen ?
               <X
                 size={32}
-                className='text-slate-200 cursor-pointer z-500'
+                className='text-slate-200 cursor-pointer'
                 onClick={handleMenu} /> :
               <List
                 size={32}
-                className='text-slate-200 cursor-pointer z-500'
+                className='text-slate-200 cursor-pointer'
                 onClick={handleMenu}
               />}
           </div>
