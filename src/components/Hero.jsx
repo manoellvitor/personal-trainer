@@ -9,7 +9,7 @@ function Hero() {
       <div className='flex flex-col justify-center items-center w-full h-full gap-4 md:max-w-2xl'>
         <h1 className='text-white -z-10 uppercase text-3xl font-bold text-center'>You don't have to be great to start, but you have to start to be great.</h1>
         <p className='text-white -z-10 text-center'>Champions aren't made in the gyms. Champions are made from something they have deep inside them, a desire, a dream, a vision.</p>
-        <a href="#" className='rounded-md p-4 text-slate-200  bg-[#6833e4] hover:bg-[#3B2382] shadow-sm -z-5 cursor-pointer transform ease-in-out duration-300' >START HERE</a>
+        <a href="#" className='rounded-md p-4 text-slate-200  bg-[#6833e4] hover:bg-[#3B2382] shadow-sm -z-5 cursor-pointer transform ease-in-out duration-500' >START HERE</a>
       </div>
     </main>
   )
