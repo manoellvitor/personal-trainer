@@ -10,11 +10,11 @@ function Navbar() {
 
   return (
     <>
-      <header className='flex justify-center border-b-2 border-slate-500]'>
+      <header className='flex justify-center border-b-2 border-slate-300'>
         {/* Toggle Menu */}
         {
           isMenuOpen ?
-            <div className='text-white text-lg t-0 l-0 w-full h-screen absolute  bg-[#121214] flex flex-col items-center md:hidden'>
+            <div className='text-white text-lg t-0 l-0 w-full h-screen absolute z-[999] bg-[#121214] flex flex-col items-center md:hidden'>
               <ul className='flex flex-col gap-4 text-[#a8a8b3] items-center mt-40'>
                 <li>
                   <a
@@ -43,7 +43,7 @@ function Navbar() {
         }
 
         <div className='flex justify-between items-center p-4 max-w-[1440px] w-full '>
-          <div className='flex text-slate-200 text-4xl gap-2 items-center z-10'>
+          <div className='flex text-slate-200 text-4xl gap-2 items-center'>
             <Barbell size={40} />
             <a
               href="/"
@@ -77,7 +77,7 @@ function Navbar() {
           </nav>
 
 
-          <div className='md:hidden'>
+          <div className='md:hidden z-[999]'>
             {isMenuOpen ?
               <X
                 size={32}
