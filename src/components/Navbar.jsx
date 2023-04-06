@@ -14,25 +14,25 @@ function Navbar() {
         {/* Toggle Menu */}
         {
           isMenuOpen ?
-            <div className='text-white text-lg t-0 l-0 w-full h-screen absolute z-[999] bg-[#121214] flex flex-col items-center md:hidden'>
+            <div className='text-slate-200 text-lg t-0 l-0 w-full h-screen absolute z-[999] bg-[#121214] flex flex-col items-center md:hidden'>
               <ul className='flex flex-col gap-4 text-[#a8a8b3] items-center mt-40'>
                 <li>
                   <a
                     href="/"
-                    className='hover:text-white transform ease-in-out duration-300'>Home</a>
+                    className='hover:text-slate-200 transform ease-in-out duration-300'>Home</a>
                 </li>
                 <li>
                   <a
                     href="/"
-                    className='hover:text-white transform ease-in-out duration-300'>About</a>
+                    className='hover:text-slate-200 transform ease-in-out duration-300'>About</a>
                 </li>
                 <li>
                   <a
                     href="/"
-                    className='hover:text-white transform ease-in-out duration-300'>Services</a>
+                    className='hover:text-slate-200 transform ease-in-out duration-300'>Services</a>
                 </li>
                 <li
-                  className='flex rounded border-[#6833e4] border-2 hover:bg-[#6833e4] transform ease-in-out duration-500 text-white'>
+                  className='flex rounded border-[#6833e4] border-2 hover:bg-[#6833e4] transform ease-in-out duration-500 text-slate-200'>
                   <a
                     href="/"
                     className='p-2'>Contact</a>
@@ -55,20 +55,20 @@ function Navbar() {
               <li>
                 <a
                   href="/"
-                  className='hover:text-white transform ease-in-out duration-300'>Home</a>
+                  className='hover:text-slate-200 transform ease-in-out duration-300'>Home</a>
               </li>
               <li>
                 <a
                   href="/"
-                  className='hover:text-white transform ease-in-out duration-300'>About</a>
+                  className='hover:text-slate-200 transform ease-in-out duration-300'>About</a>
               </li>
               <li>
                 <a
                   href="/"
-                  className='hover:text-white transform ease-in-out duration-300'>Services</a>
+                  className='hover:text-slate-200 transform ease-in-out duration-300'>Services</a>
               </li>
               <li
-                className='flex rounded border-[#6833e4] border-2 hover:bg-[#6833e4] transform ease-in-out duration-500 text-white'>
+                className='flex rounded border-[#6833e4] border-2 hover:bg-[#6833e4] transform ease-in-out duration-500 text-slate-200'>
                 <a
                   href="/"
                   className='p-2'>Contact</a>

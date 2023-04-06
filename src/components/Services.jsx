@@ -6,10 +6,10 @@ import ServiceFour from "../assets/img/personal-trainer-4.jpg";
 
 function Services() {
   return (
-    <div className='flex justify-center items-center'>
-      <div className='flex flex-col justify-center items-center'>
+    <div className='flex justify-center items-center overflow-hidden'>
+      <div className='flex flex-col'>
         <h1 className='font-logo text-slate-200 text-4xl text-center uppercase my-10'>What we offer to you</h1>
-        <div className='flex flex-col lg:flex-row  lg:max-w-[1400px] md:h-[450px] justify-between gap-6'>
+        <div className='flex flex-col lg:flex-row  lg:max-w-[1400px]  justify-between gap-6'>
           <div className='w-[450px] h-[320px] md:w-[700px]'>
             <img
               className='object-cover w-full h-full t-0 l-0 transform ease-in-out duration-500'

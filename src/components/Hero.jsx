@@ -3,7 +3,7 @@ import heroImage from "../assets/img/hero-bg.jpg"
 
 function Hero() {
   return (
-    <div className='w-full md:h-[800px] h-[700px] shadow-sm shadow-slate-200 overflow-hidden flex flex-col items-center justify-center'>
+    <div className='w-full md:h-[800px] h-[700px] shadow-sm shadow-slate-200 flex flex-col items-center justify-center'>
       <img
         src={heroImage}
         alt="Gym equipments background image"
