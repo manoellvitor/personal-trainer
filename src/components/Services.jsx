@@ -16,8 +16,8 @@ function Services() {
               src={ServiceOne}
               alt="Personal trainer guiding person exercise image of service one." />
 
-            <a href="/" className='p-4 text-slate-200 uppercase  bg-[#6833e4] hover:bg-[#3B2382] transform ease-in-out duration-500 -top-[38px] relative'> read more</a>
-            <p className='px-4 py-2 text-slate-200 uppercase text-lg lg:text-md font-medium bg-gray-600 -top-[345px] relative w-56 lg:w-[210px] left-[226px] md:left-[476px] lg:left-[122px] text-center'>Personal Trainer</p>
+            <a href="/" className='p-4 rounded-tr-md text-slate-200 uppercase  bg-[#6833e4] hover:bg-[#3B2382] transform ease-in-out duration-500 -top-[38px] relative'> read more</a>
+            <p className='px-4 py-2 text-slate-200 uppercase text-lg lg:text-md font-medium bg-[#1D1D20] -top-[345px] relative w-56 lg:w-[210px] left-[226px] md:left-[476px] lg:left-[122px] text-center'>Personal Trainer</p>
           </div>
 
           <div className='w-[450px] h-[320px] md:w-[700px]'>
@@ -26,8 +26,8 @@ function Services() {
               src={ServiceTwo}
               alt="Personal trainer guiding person exercise image of service one." />
 
-            <a href="/" className='p-4 text-slate-200 uppercase  bg-[#6833e4] hover:bg-[#3B2382] transform ease-in-out duration-500 -top-[38px] relative'> read more</a>
-            <p className='py-2 text-slate-200 uppercase text-lg lg:text-md font-medium bg-gray-600 -top-[345px] relative w-64 lg:w-[220px] left-[194px] md:left-[445px] lg:left-[112px] text-center'>One-on-one training</p>
+            <a href="/" className='p-4 rounded-tr-md text-slate-200 uppercase  bg-[#6833e4] hover:bg-[#3B2382] transform ease-in-out duration-500 -top-[38px] relative'> read more</a>
+            <p className='py-2 text-slate-200 uppercase text-lg lg:text-md font-medium bg-[#1D1D20] -top-[345px] relative w-64 lg:w-[220px] left-[194px] md:left-[445px] lg:left-[112px] text-center'>One-on-one training</p>
           </div>
 
           <div className='w-[450px] h-[320px] md:w-[700px]'>
@@ -36,8 +36,8 @@ function Services() {
               src={ServiceThree}
               alt="Personal trainer guiding person exercise image of service one." />
 
-            <a href="/" className='p-4 text-slate-200 uppercase  bg-[#6833e4] hover:bg-[#3B2382] transform ease-in-out duration-500 -top-[38px] relative'> read more</a>
-            <p className='py-2 text-slate-200 uppercase text-lg lg:text-md font-medium bg-gray-600 -top-[345px] relative w-64 lg:w-[220px] left-[194px] md:left-[445px] lg:left-[112px] text-center'>Lifestyle coaching</p>
+            <a href="/" className='p-4 rounded-tr-md text-slate-200 uppercase  bg-[#6833e4] hover:bg-[#3B2382] transform ease-in-out duration-500 -top-[38px] relative'> read more</a>
+            <p className='py-2 text-slate-200 uppercase text-lg lg:text-md font-medium bg-[#1D1D20] -top-[345px] relative w-64 lg:w-[220px] left-[194px] md:left-[445px] lg:left-[112px] text-center'>Lifestyle coaching</p>
           </div>
 
           <div className='w-[450px] h-[320px] md:w-[700px]'>
@@ -46,8 +46,8 @@ function Services() {
               src={ServiceFour}
               alt="Personal trainer guiding person exercise image of service one." />
 
-            <a href="/" className='p-4 text-slate-200 uppercase  bg-[#6833e4] hover:bg-[#3B2382] transform ease-in-out duration-500 -top-[38px] relative'> read more</a>
-            <p className='px-2 py-2 text-slate-200 uppercase text-lg lg:text-md font-medium bg-gray-600 -top-[345px] relative w-64 lg:w-[240px] left-[194px] md:left-[445px] lg:left-[92px] text-center'>Nutritional guidance</p>
+            <a href="/" className='p-4 rounded-tr-md text-slate-200 uppercase  bg-[#6833e4] hover:bg-[#3B2382] transform ease-in-out duration-500 -top-[38px] relative'> read more</a>
+            <p className='px-2 py-2 text-slate-200 uppercase text-lg lg:text-md font-medium bg-[#1D1D20] -top-[345px] relative w-64 lg:w-[240px] left-[194px] md:left-[445px] lg:left-[92px] text-center'>Nutritional guidance</p>
           </div>
         </div>
       </div>
