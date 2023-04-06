@@ -5,7 +5,7 @@ function Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <section className='text-slate-200 mt-10 p-4 justify-between items-center gap-2 flex-wrap bg-[#1D1D20]'>
+    <section className='text-slate-200 mt-10 p-4 gap-2 flex-wrap bg-[#1D1D20]'>
       <div className='lg:max-w-[1440px] md:flex md:justify-between mx-auto items-center'>
         <div className='flex flex-col text-center px-8'>
           <h1 className='uppercase mb-3 underline underline-offset-4'>Useful Links</h1>
@@ -36,7 +36,7 @@ function Footer() {
           <a href='#' className='hover:text-slate-200 transform ease-in-out duration-300'><InstagramLogo size={32} /></a>
           <a href='#' className='hover:text-slate-200 transform ease-in-out duration-300'><YoutubeLogo size={32} /></a>
         </div>
-        <div className='flex text-center mx-auto mt-4 md:mt-0 text-[#a8a8b3] justify-center items-center'>
+        <div className='flex text-center mx-auto md:mx-0 mt-4 md:mt-0 text-[#a8a8b3] justify-center items-center md:pr-8'>
           <p>Copyright &copy; {year} | Developed by <a href="https://github.com/manoellvitor" target='_blank' className='hover:text-slate-200 transform ease-in-out duration-300'>Manoel Lopes</a></p>
         </div>
       </div>
