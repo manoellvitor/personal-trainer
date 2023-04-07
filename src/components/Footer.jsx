@@ -5,7 +5,7 @@ function Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <section className='text-slate-200 mt-10 p-4 gap-2 flex-wrap bg-[#1D1D20]'>
+    <section className='text-slate-200 mt-10 p-4 flex-wrap bg-[#1D1D20]'>
       <div className='lg:max-w-[1440px] md:flex md:justify-between mx-auto items-center'>
         <div className='flex flex-col text-center px-8'>
           <h1 className='uppercase mb-3 underline underline-offset-4'>Useful Links</h1>
