@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import NotFoundImage from "../../assets/img/page-not-found-bg.jpg"
 
 
-function NotFound() {
+function NoMatch() {
   return (
     <div className='w-full md:h-[800px] h-[700px] shadow-sm shadow-slate-200 flex flex-col items-center justify-center'>
       <img
@@ -19,11 +19,11 @@ function NotFound() {
           <h1 className=' text-fuchsia-700 text-4xl'>404</h1>
         </div>
         <h1 className='font-logo text-slate-200 uppercase text-5xl font-bold text-center leading-tight tracking-wider'>Ops. Page Not found!</h1>
-        <p className='text-slate-200 text-center text-lg uppercase'>It looks like the page you are looking for does not exist.</p>
+        <p className='text-slate-200 text-center text-lg uppercase px-2'>It looks like the page you are looking for does not exist.</p>
         <Link to="/" className='rounded-md p-4 text-slate-200  bg-[#6833e4] hover:bg-[#3B2382] shadow-sm cursor-pointer transform ease-in-out duration-500 uppercase' >Return to home</Link>
       </div>
     </div>
   )
 }
 
-export default NotFound
+export default NoMatch

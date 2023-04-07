@@ -4,7 +4,7 @@ import Services from "./components/Services";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home";
-import NoMatch from "./components/pages/NotFound";
+import NoMatch from "./components/pages/NoMatch";
 
 function App() {
 
