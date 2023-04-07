@@ -1,6 +1,6 @@
 import { Bandaids } from '@phosphor-icons/react'
 import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import NotFoundImage from "../../assets/img/page-not-found-bg.jpg"
 
 
