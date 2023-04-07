@@ -1,5 +1,7 @@
-import { Barbell, List, X } from '@phosphor-icons/react'
-import React, { useState } from 'react'
+import { Barbell, List, X } from '@phosphor-icons/react';
+import React, { useState } from 'react';
+import { Link, Outlet } from "react-router-dom";
+
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -17,25 +19,21 @@ function Navbar() {
             <div className='text-slate-200 text-lg t-0 l-0 w-full h-screen absolute z-[999] bg-[#121214] flex flex-col items-center md:hidden'>
               <ul className='flex flex-col gap-4 text-[#a8a8b3] items-center mt-40'>
                 <li>
-                  <a
-                    href="/"
-                    className='hover:text-slate-200 transform ease-in-out duration-300'>Home</a>
+                  <Link to="/"
+                    className='hover:text-slate-200 transform ease-in-out duration-300' onClick={() => { setIsMenuOpen(!isMenuOpen) }}>Home</Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
-                    className='hover:text-slate-200 transform ease-in-out duration-300'>About</a>
+                  <Link to="/about"
+                    className='hover:text-slate-200 transform ease-in-out duration-300' onClick={() => { setIsMenuOpen(!isMenuOpen) }}>About</Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
-                    className='hover:text-slate-200 transform ease-in-out duration-300'>Services</a>
+                  <Link to="/services"
+                    className='hover:text-slate-200 transform ease-in-out duration-300' onClick={() => { setIsMenuOpen(!isMenuOpen) }}>Services</Link>
                 </li>
                 <li
                   className='flex rounded border-[#6833e4] border-2 hover:bg-[#6833e4] transform ease-in-out duration-500 text-slate-200'>
-                  <a
-                    href="/"
-                    className='p-2'>Contact</a>
+                  <Link to="/contact"
+                    className='p-2' onClick={() => { setIsMenuOpen(!isMenuOpen) }}>Contact</Link>
                 </li>
               </ul>
             </div>
@@ -45,33 +43,28 @@ function Navbar() {
         <div className='flex justify-between items-center p-4 max-w-[1440px] w-full '>
           <div className='flex text-slate-200 text-4xl gap-2 items-center'>
             <Barbell size={40} />
-            <a
-              href="/"
-              className='font-logo hover:text-slate-400 transform ease-in-out duration-700'>TRAINER</a>
+            <Link to="/"
+              className='font-logo hover:text-slate-400 transform ease-in-out duration-700'>TRAINER</Link>
           </div>
 
           <nav className='hidden md:flex'>
             <ul className='flex gap-4 text-[#a8a8b3] items-center'>
               <li>
-                <a
-                  href="/"
-                  className='hover:text-slate-200 transform ease-in-out duration-300'>Home</a>
+                <Link to="/"
+                  className='hover:text-slate-200 transform ease-in-out duration-300'>Home</Link>
               </li>
               <li>
-                <a
-                  href="/"
-                  className='hover:text-slate-200 transform ease-in-out duration-300'>About</a>
+                <Link to="/about"
+                  className='hover:text-slate-200 transform ease-in-out duration-300'>About</Link>
               </li>
               <li>
-                <a
-                  href="/"
-                  className='hover:text-slate-200 transform ease-in-out duration-300'>Services</a>
+                <Link to="/services"
+                  className='hover:text-slate-200 transform ease-in-out duration-300'>Services</Link>
               </li>
               <li
                 className='flex rounded border-[#6833e4] border-2 hover:bg-[#6833e4] transform ease-in-out duration-500 text-slate-200'>
-                <a
-                  href="/"
-                  className='p-2'>Contact</a>
+                <Link to="/contact"
+                  className='p-2'>Contact</Link>
               </li>
             </ul>
           </nav>
@@ -91,6 +84,7 @@ function Navbar() {
           </div>
         </div>
       </header>
+      <Outlet />
     </>
   )
 }
