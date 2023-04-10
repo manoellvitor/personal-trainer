@@ -33,7 +33,7 @@ function Footer() {
         <div className='flex gap-2 p-8 text-[#a8a8b3] mx-auto items-center justify-center'>
           <a href='https://fb.com' target='_blank' className='hover:text-slate-200 transform ease-in-out duration-300'><FacebookLogo size={32} /></a>
           <a href='https://twitter.com' target='_blank' className='hover:text-slate-200 transform ease-in-out duration-300'><TwitterLogo size={32} /></a>
-          <a href='https://ig.com' target='_blank' className='hover:text-slate-200 transform ease-in-out duration-300'><InstagramLogo size={32} /></a>
+          <a href='https://www.instagram.com' target='_blank' className='hover:text-slate-200 transform ease-in-out duration-300'><InstagramLogo size={32} /></a>
           <a href='https://youtube.com' target='_blank' className='hover:text-slate-200 transform ease-in-out duration-300'><YoutubeLogo size={32} /></a>
         </div>
         <div className='flex text-center mx-auto md:mx-0 mt-4 md:mt-0 text-[#a8a8b3] justify-center items-center md:pr-8'>
