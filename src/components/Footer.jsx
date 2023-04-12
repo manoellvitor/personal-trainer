@@ -37,7 +37,7 @@ function Footer() {
           <a href='https://youtube.com' target='_blank' className='hover:text-slate-200 transform ease-in-out duration-300'><YoutubeLogo size={32} /></a>
         </div>
         <div className='flex text-center mx-auto md:mx-0 mt-4 md:mt-0 text-[#a8a8b3] justify-center items-center md:pr-8'>
-          <p>Copyright &copy; {year} | Developed by <a href="https://github.com/manoellvitor" target='_blank' className='hover:text-slate-200 transform ease-in-out duration-300'>Manoel Lopes</a></p>
+          <p>Copyright &copy; {year}. All Rights Reserved. | Developed by <a href="https://github.com/manoellvitor" target='_blank' className='hover:text-slate-200 transform ease-in-out duration-300'>Manoel Lopes</a></p>
         </div>
       </div>
     </section>
