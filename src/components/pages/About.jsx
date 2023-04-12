@@ -13,7 +13,7 @@ function About() {
 
       <div className='flex flex-col w-full h-full p-4 mt-10 lg:flex-row mx-auto justify-center gap-4 items-center'>
         <div className=' flex flex-col justify-center items-center z-[2]'>
-          <div className='rounded-full overflow-hidden md:w-[400px] md:h-[400px] w-[300px] h-[300px] flex justify-center items-center drop-shadow-lg'>
+          <div className='rounded-full overflow-hidden md:w-[400px] md:h-[400px] w-[300px] h-[300px] flex justify-center items-center drop-shadow-lg border-2 border-opacity-50 border-slate-200 '>
             <img src={personalTrainer} alt="John Doe personal trainer" className='object-cover' />
           </div>
           <h1 className='mt-4 font-logo text-slate-200 uppercase text-5xl font-bold text-center leading-tight tracking-wider px-2'>John Doe</h1>
