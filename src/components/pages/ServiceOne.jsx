@@ -15,7 +15,7 @@ function ServiceOne() {
         <p className='text-slate-200 text-lg px-4 text-justify first-letter:ml-10'>A fitness assessment is a comprehensive evaluation of a person's fitness level, which is typically conducted by a personal trainer or fitness professional. The assessment typically includes a series of tests and measurements that are used to evaluate various aspects of fitness, such as cardiovascular endurance, muscular strength and endurance, flexibility, and body composition.
           <br />
         </p>
-        <p className='text-slate-200 text-lg px-4 text-justify first-letter:ml-10'>
+        <p className='text-slate-200 text-lg px-4 text-justify first-letter:ml-10 hidden md:block'>
           The purpose of a fitness assessment is to identify the client's current fitness level, as well as any areas of weakness or potential health concerns. This information is then used to create a personalized workout plan that is tailored to the client's specific needs and goals.
 
           However, the overall goal of a fitness assessment is to provide the client with a clear understanding of their current fitness level and a roadmap for achieving their fitness goals.</p>
