@@ -11,15 +11,15 @@ function About() {
       />
       <div className="t-0 l-0 w-full bg-black lg:h-[700px] h-[1900px] md:h-[1200px] absolute opacity-70 overflow-hidden"></div>
 
-      <div className='flex flex-col w-full h-full p-4 mt-10 lg:flex-row mx-auto justify-center gap-4 items-center'>
+      <div className='flex flex-col w-full h-full p-4 mt-10 lg:flex-row mx-auto justify-center items-center'>
         <div className=' flex flex-col justify-center items-center z-[2]'>
           <div className='rounded-full overflow-hidden md:w-[400px] md:h-[400px] w-[300px] h-[300px] flex justify-center items-center drop-shadow-lg border-2 border-opacity-50 border-slate-200 '>
             <img src={personalTrainer} alt="John Doe personal trainer" className='object-cover' />
           </div>
           <h1 className='mt-4 font-logo text-slate-200 uppercase text-5xl font-bold text-center leading-tight tracking-wider px-2'>John Doe</h1>
         </div>
-        <div className='flex flex-row justify-center items-center w-full h-full gap-4 md:max-w-3xl z-[1] overflow-hidden'>
-          <div className='text-slate-200  text-lg px-4 leading-10 text-justify '>
+        <div className='flex flex-row md:items-center w-full h-full md:max-w-3xl z-[1] overflow-hidden'>
+          <div className='text-slate-200  text-lg px-4 leading-10 text-justify mt-10'>
 
             <p className='first-letter:ml-10'>
               <span className='text-[#6833e4] text-3xl font-bold'>John</span> is a certified personal trainer with over a decade of experience helping clients achieve their fitness goals. He has a passion for health and fitness and is dedicated to helping his clients live their best lives.
