@@ -18,13 +18,13 @@ function Footer() {
             </li>
             <li>
               <a
-                href="/"
+                href="/about"
                 className='hover:text-slate-200 transform ease-in-out duration-300'>About
               </a>
             </li>
             <li>
               <a
-                href="/"
+                href="/contact"
                 className='hover:text-slate-200 transform ease-in-out duration-300'>Contact
               </a>
             </li>

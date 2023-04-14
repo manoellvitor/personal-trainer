@@ -3,13 +3,13 @@ import personalTrainer from "../../assets/img/personal-trainer.jpg"
 
 function About() {
   return (
-    <div className='w-full lg:h-[700px] shadow-sm h-[1500px] md:h-[1200px] shadow-slate-200 flex flex-row items-center justify-center gap-4'>
+    <div className='w-full lg:h-[700px] shadow-sm h-[1900px] md:h-[1200px] shadow-slate-200 flex flex-row items-center justify-center gap-4'>
       <img
         src={personalTrainer}
         alt="Dark background"
-        className='object-cover w-full lg:h-[700px] h-[1500px] md:h-[1200px]  absolute'
+        className='object-cover w-full lg:h-[700px] h-[1900px] md:h-[1200px]  absolute'
       />
-      <div className="t-0 l-0 w-full bg-black lg:h-[700px] h-[1500px] md:h-[1200px] absolute opacity-70 overflow-hidden"></div>
+      <div className="t-0 l-0 w-full bg-black lg:h-[700px] h-[1900px] md:h-[1200px] absolute opacity-70 overflow-hidden"></div>
 
       <div className='flex flex-col w-full h-full p-4 mt-10 lg:flex-row mx-auto justify-center gap-4 items-center'>
         <div className=' flex flex-col justify-center items-center z-[2]'>
