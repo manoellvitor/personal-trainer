@@ -6,7 +6,7 @@ import ServiceFour from "../assets/img/personal-trainer-4.jpg";
 
 function Services() {
   return (
-    <div className='flex justify-center items-center overflow-hidden'>
+    <div className='justify-center items-center overflow-hidden'>
       <div className='flex flex-col'>
         <h1 className='font-logo text-slate-200 text-3xl md:text-4xl text-center uppercase my-10'>What we offer to you</h1>
         <div className='flex flex-col lg:flex-row justify-between gap-6 mx-2'>
