@@ -1,7 +1,13 @@
 {
   "name": "personal-trainer",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Website project for personal trainers.",
+  "author": {
+    "name": "Manoel Lopes",
+    "Linkedin": "https://www.linkedin.com/in/manoellvitor"
+  },
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",

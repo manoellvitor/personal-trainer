@@ -35,7 +35,7 @@ function Contact() {
         className='object-cover w-full h-full absolute'
       />
       <div className="t-0 l-0 w-full h-full bg-black absolute opacity-70"></div>
-      <div className='flex flex-col items-center w-full gap-4 z-[1]'>
+      <div className='flex flex-col items-center w-full gap-4 z-[1] mt-10'>
         <h1 className='font-logo text-slate-200 uppercase text-5xl font-bold text-center leading-tight tracking-wider sm:mt-20'>Get in touch</h1>
         <p className='text-slate-200 text-center text-lg px-4'>Send us a message, we will get back to you as soon as we can.</p>
 
