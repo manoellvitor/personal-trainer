@@ -8,16 +8,33 @@
 
 > Website project for personal trainers.
 
+### 🏠 [Homepage](https://personal-trainer-mu.vercel.app/)
+
+### ✨ [Demo](https://personal-trainer-mu.vercel.app/)
+
 ## Install
 
 ```sh
 npm install
 ```
 
+## Usage
+
+```sh
+npm run dev
+```
+
 ## Author
 
 👤 **Manoel Lopes**
 
+* Website: https://www.linkedin.com/in/manoellvitor/
+* Github: [@manoellvitor](https://github.com/manoellvitor)
+* LinkedIn: [@https:\/\/www.linkedin.com\/in\/manoellvitor\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/manoellvitor\/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/manoellvitor/personal-trainer/issues). 
 
 ## Show your support
 
