@@ -46,6 +46,7 @@ function Contact() {
               type="text"
               name="name"
               id="name"
+              required
               placeholder='Enter your name' />
 
             <input
@@ -53,6 +54,7 @@ function Contact() {
               type="email"
               name="email"
               id="email"
+              required
               placeholder='Enter your e-mail' />
 
             <input
@@ -67,6 +69,7 @@ function Contact() {
               type="text"
               name="subject"
               id="subject"
+              required
               placeholder='Subject' />
 
             <textarea
@@ -74,6 +77,7 @@ function Contact() {
               type="text"
               name="message"
               id="message"
+              required
               placeholder='Type your message' />
 
             <input type='submit' href="/contact" className='rounded-md p-4 text-slate-200  bg-[#6833e4] hover:bg-[#3B2382] shadow-sm cursor-pointer transform ease-in-out duration-500 uppercase' />
