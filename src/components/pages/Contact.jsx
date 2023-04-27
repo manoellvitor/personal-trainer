@@ -28,18 +28,18 @@ function Contact() {
   };
 
   return (
-    <div className='flex flex-col h-screen w-full'>
+    <div className='flex-1 mb-10 w-full relative shadow-sm shadow-slate-200 flex flex-col items-center justify-center'>
       <img
         src={ContactImage}
-        alt="Gym equipments background image"
-        className='object-cover w-full h-full absolute'
+        alt=""
+        className='object-cover absolute w-full h-full'
       />
-      <div className="t-0 l-0 w-full h-full bg-black absolute opacity-70"></div>
+      <div className="t-0 l-0 w-full bg-black  h-full md:h-full absolute opacity-70"></div>
       <div className='flex flex-col items-center w-full gap-4 z-[1] mt-10'>
-        <h1 className='font-logo text-slate-200 uppercase text-5xl font-bold text-center leading-tight tracking-wider sm:mt-20'>Get in touch</h1>
-        <p className='text-slate-200 text-center text-lg px-4'>Send us a message, we will get back to you as soon as we can.</p>
+        <h1 className='font-logo z-[2] text-slate-200 uppercase text-5xl font-bold text-center leading-tight tracking-wider sm:mt-20'>Get in touch</h1>
+        <p className='text-slate-200 z-[2] text-center text-lg px-4'>Send us a message, we will get back to you as soon as we can.</p>
 
-        <div className='md:mt-10 flex flex-col h-full'>
+        <div className='md:mt-10 z-[2] mb-10'>
           <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-4'>
             <input
               className='p-4 bg-zinc-900 outline-none text-slate-200 w-[350px] md:w-[500px] rounded focus:outline-[#6833e4] '

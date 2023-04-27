@@ -3,22 +3,22 @@ import personalTrainer from "../../assets/img/personal-trainer.jpg"
 
 function About() {
   return (
-    <div className='w-full lg:h-[700px] shadow-sm h-[1900px] md:h-[1200px] shadow-slate-200 flex flex-row items-center justify-center gap-4'>
+    <div className='flex-1 mb-10 w-full relative shadow-sm shadow-slate-200 flex flex-col items-center justify-center'>
       <img
         src={personalTrainer}
-        alt="Dark background"
-        className='object-cover w-full lg:h-[700px] h-[1900px] md:h-[1200px]  absolute'
+        alt=""
+        className='object-cover absolute w-full h-full'
       />
-      <div className="t-0 l-0 w-full bg-black lg:h-[700px] h-[1900px] md:h-[1200px] absolute opacity-70 overflow-hidden"></div>
+      <div className="t-0 l-0 w-full bg-black  h-full md:h-full absolute opacity-70"></div>
 
-      <div className='flex flex-col w-full h-full p-4 mt-10 lg:flex-row mx-auto justify-center items-center'>
+      <div className='mb-10 flex flex-col w-full h-full p-4 mt-10 lg:flex-row mx-auto justify-center items-center'>
         <div className=' flex flex-col justify-center items-center z-[2]'>
           <div className='rounded-full overflow-hidden md:w-[400px] md:h-[400px] w-[300px] h-[300px] flex justify-center items-center drop-shadow-lg border-2 border-opacity-50 border-slate-200 '>
             <img src={personalTrainer} alt="John Doe personal trainer" className='object-cover' />
           </div>
           <h1 className='mt-4 font-logo text-slate-200 uppercase text-5xl font-bold text-center leading-tight tracking-wider px-2'>John Doe</h1>
         </div>
-        <div className='flex flex-row md:items-center w-full h-full md:max-w-3xl z-[1] overflow-hidden'>
+        <div className='flex flex-row md:items-center w-full h-full md:max-w-3xl z-[1]'>
           <div className='text-slate-200  text-lg px-4 leading-10 text-justify mt-10'>
 
             <p className='first-letter:ml-10'>

@@ -4,10 +4,10 @@ import Services from '../Services'
 
 function Home() {
   return (
-    <>
+    <div>
       <Hero />
       <Services />
-    </>
+    </div>
   )
 }
 

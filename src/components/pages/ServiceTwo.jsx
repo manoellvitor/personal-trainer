@@ -3,13 +3,14 @@ import ServiceTwoImage from '../../assets/img/personal-trainer-2.jpg'
 
 function ServiceTwo() {
   return (
-    <div className='w-full md:h-[800px] h-[700px] shadow-sm shadow-slate-200 flex flex-col items-center justify-center'>
+    <div className='flex-1 mb-10 w-full relative shadow-sm shadow-slate-200 flex flex-col items-center justify-center'>
       <img
         src={ServiceTwoImage}
-        alt="Gym equipments background image"
-        className='object-cover w-full md:h-[800px] h-[700px] absolute'
+        alt=""
+        className='object-cover absolute w-full h-full'
       />
-      <div className="t-0 l-0 w-full bg-black md:h-[800px] h-[700px] absolute opacity-70 overflow-hidden"></div>
+      <div className="t-0 l-0 w-full bg-black  h-full md:h-full absolute opacity-70"></div>
+
       <div className='flex flex-col justify-center items-center w-full h-full gap-4 md:max-w-2xl z-[1]'>
         <h1 className='font-logo text-slate-200 uppercase text-5xl font-bold text-center leading-tight tracking-wider px-2'>One-on-one training</h1>
         <p className='text-slate-200 text-lg px-4 text-justify first-letter:ml-10'>One-on-one training is a personalized fitness service that involves a personal trainer working individually with a client to help them achieve their fitness goals. In a one-on-one training session, the trainer designs a customized workout plan and provides individualized instruction, support, and motivation to help the client reach their fitness goals.
