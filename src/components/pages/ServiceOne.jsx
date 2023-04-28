@@ -19,7 +19,7 @@ function ServiceOne() {
         <p className='text-slate-200 text-lg px-4 text-justify first-letter:ml-10 hidden md:block'>
           The purpose of a fitness assessment is to identify the client's current fitness level, as well as any areas of weakness or potential health concerns. This information is then used to create a personalized workout plan that is tailored to the client's specific needs and goals.
 
-          However, the overall goal of a fitness assessment is to provide the client with a clear understanding of their current fitness level and a roadmap for achieving their fitness goals.</p>
+          However, the overall goal of a fitness assessment is to provide the client with a clear understanding of their current fitness level and a road-map for achieving their fitness goals.</p>
         <a href="/contact" className='rounded-md p-4 text-slate-200  bg-[#6833e4] hover:bg-[#3B2382] shadow-sm cursor-pointer transform ease-in-out duration-500' >START HERE</a>
       </div>
     </div>

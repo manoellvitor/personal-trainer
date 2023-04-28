@@ -25,10 +25,10 @@ function About() {
               <span className='text-[#6833e4] text-3xl font-bold'>John</span> is a certified personal trainer with over a decade of experience helping clients achieve their fitness goals. He has a passion for health and fitness and is dedicated to helping his clients live their best lives.
             </p>
             <p className='first-letter:ml-10'>
-              John's approach to personal training is holistic, focusing not just on exercise, but also on nutrition, lifestyle, and mindset. He works closely with each of his clients to develop a personalized training plan that is tailored to their individual needs and goals. Whether you're looking to lose weight, build muscle, or simply improve your overall health and fitness, John can help you get there.
+              John&apos;s approach to personal training is holistic, focusing not just on exercise, but also on nutrition, lifestyle, and mindset. He works closely with each of his clients to develop a personalized training plan that is tailored to their individual needs and goals. Whether you&apos;re looking to lose weight, build muscle, or simply improve your overall health and fitness, John can help you get there.
             </p>
             <p className='first-letter:ml-10'>
-              In addition to his personal training services, John also offers group fitness classes, nutrition coaching, and online coaching services. He believes that fitness should be fun and accessible to everyone, and he strives to create a welcoming and inclusive environment in his classes and training sessions. With John's expertise and guidance, you can achieve your fitness goals and transform your life for the better.
+              In addition to his personal training services, John also offers group fitness classes, nutrition coaching, and online coaching services. He believes that fitness should be fun and accessible to everyone, and he strives to create a welcoming and inclusive environment in his classes and training sessions. With John&apos;s expertise and guidance, you can achieve your fitness goals and transform your life for the better.
             </p>
           </div>
         </div>

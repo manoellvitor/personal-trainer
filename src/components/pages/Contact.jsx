@@ -18,7 +18,6 @@ function Contact() {
           'success'
         )
       }, (error) => {
-        console.log(error.text);
         Swal.fire(
           'Ops!',
           'Something went wrong, please try again!',
