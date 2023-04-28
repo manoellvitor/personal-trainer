@@ -3,7 +3,7 @@ import ServiceOneImage from '../../assets/img/personal-trainer-1.jpg'
 
 function ServiceOne() {
   return (
-    <div className='flex-1 mb-10 w-full relative shadow-sm shadow-slate-200 flex flex-col items-center justify-center'>
+    <div className='flex-1 mb-10 w-full relative shadow-sm shadow-slate-200 flex flex-col items-center justify-center py-10'>
       <img
         src={ServiceOneImage}
         alt=""
