@@ -6,13 +6,13 @@ import NotFoundImage from "../../assets/img/page-not-found-bg.jpg"
 
 function NoMatch() {
   return (
-    <div className='w-full md:h-[800px] h-[700px] shadow-sm shadow-slate-200 flex flex-col items-center justify-center'>
+    <div className='flex-1 mb-10 w-full relative shadow-sm shadow-slate-200 flex flex-col items-center justify-center py-10'>
       <img
         src={NotFoundImage}
-        alt="Empty room background image"
-        className='object-cover w-full md:h-[800px] h-[700px] absolute'
+        alt=""
+        className='object-cover absolute w-full h-full'
       />
-      <div className="t-0 l-0 w-full bg-black md:h-[800px] h-[700px] absolute opacity-70 overflow-hidden"></div>
+      <div className="t-0 l-0 w-full bg-black  h-full md:h-full absolute opacity-70"></div>
       <div className='flex flex-col justify-center items-center w-full h-full gap-4 md:max-w-2xl z-[1]'>
         <div className='flex justify-center items-center'>
           <Bandaids size={100} className='text-emerald-500' />

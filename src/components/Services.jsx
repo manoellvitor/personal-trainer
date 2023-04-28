@@ -5,6 +5,7 @@ import ServiceThree from "../assets/img/personal-trainer-3.jpg";
 import ServiceFour from "../assets/img/personal-trainer-4.jpg";
 import ServiceCard from "../components/ServiceCard";
 
+// This is static for now, but it can be served from an API or File.
 const services = [
   {
     serviceID: 1,
@@ -38,7 +39,7 @@ function Services() {
           <div className='flex flex-col lg:flex-row justify-between gap-6'>
             {
               services.map((service) => {
-                return <ServiceCard service={service} id={service.serviceID} />
+                return <ServiceCard service={service} key={service.serviceID} />
               })
             }
           </div>
