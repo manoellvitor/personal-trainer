@@ -8,7 +8,7 @@
   </a>
 </p>
 
-> Website for personal trainers.
+> This website is designed to help personal trainers connect with their clients. Built using JavaScript, React, and Tailwind CSS. Whether you're a seasoned trainer or just starting out, this website is the perfect tool to help you take your business to the next level.
 
 ### 🏠 [Homepage](https://personal-trainer-mu.vercel.app/)
 
