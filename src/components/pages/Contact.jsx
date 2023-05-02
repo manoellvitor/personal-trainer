@@ -10,7 +10,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('personal-trainer-project', 'template_91qbcom', form.current, 'user_qYgoSatV1VaqrLsZ56CHw')
+    emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, form.current, import.meta.env.VITE_PUBLICKEY)
       .then((result) => {
         Swal.fire(
           'Good job!',
