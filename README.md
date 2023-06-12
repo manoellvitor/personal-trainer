@@ -15,10 +15,9 @@
 ### ✨ [Demo](https://personal-trainer-mu.vercel.app/)
 
 ## Install
-
+#### from the personal-trainer folder just run:
 ```sh
-from the personal-trainer folder just run:
-  npm install
+npm install
 ```
 
 ## Usage
