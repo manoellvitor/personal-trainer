@@ -17,7 +17,8 @@
 ## Install
 
 ```sh
-npm install
+from the personal-trainer folder just run:
+  npm install
 ```
 
 ## Usage
